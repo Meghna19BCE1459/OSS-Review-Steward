@@ -1,0 +1,13 @@
+{
+  "name": "oss-review-steward",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only workspace for OSS maintainers: evidence-linked PR review and documented-vs-practiced governance.",
+  "type": "module",
+  "engines": { "node": ">=20.11" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/",
+    "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/github.js && node --check dist/demo.js && node --check dist/icons.js"
+  }
+}

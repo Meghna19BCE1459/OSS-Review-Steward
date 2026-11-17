@@ -1,0 +1,21 @@
+﻿OSS REVIEW STEWARD - LOCAL EDITION
+
+1. Double-click Start-OSS-Review-Steward.cmd. Your browser opens automatically.
+   (If it doesn't, go to http://127.0.0.1:4173)
+2. Explore the demo, or click "Connect repository" and paste a public GitHub URL.
+
+No account or sign-in is needed. Public repositories work without a GitHub
+token, within GitHub's limit of 60 requests per hour. Internet access is needed
+to fetch GitHub data; the demo works offline.
+
+Requirements: Node.js 20.11 or newer. No npm install is needed.
+Alternative: run "node server.mjs" from this folder.
+
+Keep the launcher window open while you use the app. Press Ctrl+C to stop.
+If port 4173 is already in use, an instance may already be running.
+
+Tips: press ? for keyboard shortcuts. Use the T button in the top bar to make
+text larger, and the moon/sun button to switch themes.
+
+Review notes are stored in your browser. Use the same browser and URL to keep
+access to them, or export them from Settings.
